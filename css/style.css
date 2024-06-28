@@ -1,0 +1,85 @@
+html, body{
+    top: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    background: white;
+    opacity: 70%;
+    z-index: 1;
+
+    width: 95vw;
+
+    top: 0;
+
+    padding: 30px;
+
+    font-family: "Kanit", sans-serif;
+
+}
+
+
+
+.logo {
+
+   
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+
+
+}
+
+a.logo:link {
+    text-decoration: none;
+    color: black;
+}
+a.logo:visited {text-decoration: none;color: black;}
+
+a.logo:hover {text-decoration: underline;color: black;}
+
+a.logo:active {text-decoration: none;color: black;}
+
+
+nav {
+
+    font-size: 15px;
+    
+}
+
+nav ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    gap: 45px;
+
+}
+nav ul li{
+    list-style: none;
+
+    position: relative;
+    
+
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+
+section{
+
+    width: 100%;
+
+    top: 100px;
+}
+
+body {
+    top: 200px;
+}
